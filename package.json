@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The PopJamAPI (unoffical)",
   "main": "index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/TheDuck8283/PopJamAPI/issues"
   },
-  "homepage": "https://github.com/TheDuck8283/PopJamAPI#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/TheDuck8283/PopJamAPI#readme"
 }
