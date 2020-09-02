@@ -1,6 +1,7 @@
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 exports.getComments = function(feedID) {
     function reqListener () {
-        console.log(this.responseText);
+        return this.responseText
       }
       
       var oReq = new XMLHttpRequest();
